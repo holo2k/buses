@@ -10,17 +10,8 @@ namespace Bus
 {
     class Bus
     {
-        public string name;
-        public string secondName;
-        public string brand;
-        public string year;
-        public string numberOfBus;
-        public int numberOfRoute;
-        public int millage;
-
+      
         public static int count=0;
-
-        //public static List<string> buses = new List<string>();
 
         public static string[,] buses = new string[100,100];
 
